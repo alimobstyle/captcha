@@ -1,0 +1,46 @@
+/* alimobstyle.layout 样式模块 */
+
+.ali-flexbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: box;
+}
+.ali-flexbox .ali-flexbox-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    box-flex: 1;
+    margin: 4px 0 4px 8px;
+}
+.ali-flexbox-item:first-child {
+    margin-left: 0;
+}
+.ali-grid {
+    overflow: hidden;
+}
+.ali-grid-item {
+    float: left;
+    display: inline-block;
+    width: 100%;
+    padding: 4px 0 4px 8px;
+    vertical-align: top;
+}
+.ali-grid-item:first-child {
+    padding-left: 0;
+}
+/* width */
+.one-quarter {
+    width: 25%;
+}
+.one-half,
+.two-quarters {
+    width: 50%;
+}
+.third-quarters {
+    width: 75%;
+}
+.one-third {
+    width: 33.333%;
+}
+.tow-thirds {
+    width: 66.666%;
+}
