@@ -2,17 +2,11 @@
 
 ---
 
-// 验证码
+验证码
 
 ---
 
 ## 演示
-
-<link type="text/css" rel="stylesheet" media="screen" href="src/base.css">
-<link type="text/css" rel="stylesheet" media="screen" href="src/layout.css">
-<link type="text/css" rel="stylesheet" media="screen" href="src/button.css">
-<link type="text/css" rel="stylesheet" media="screen" href="src/form.css">
-<link type="text/css" rel="stylesheet" media="screen" href="src/captcha.css">
 
 ### 默认
 

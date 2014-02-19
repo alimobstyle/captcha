@@ -1,20 +1,23 @@
 {
-  "name": "captcha",
-  "description": "",
-  "version": "1.0.0",
-  "homepage": "https://github.com/alimobstyle/captcha",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alimobstyle/captcha.git"
-  },
-  "bugs": {
-    "url": "https://github.com/alimobstyle/captcha/issues"
-  },
-  "family": "alimobstyle",
-  "spm": {
-    "alias": {},
-    "output": [
-      "captcha.css"
-    ]
-  }
+    "family": "alimobstyle",
+    "name": "captcha",
+    "description": "alibaba mobile css theme - 验证码",
+    "version": "1.0.0",
+    "homepage": "https://github.com/alimobstyle/captcha",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alimobstyle/captcha.git"
+    },
+    "bugs": {
+        "url": "https://github.com/alimobstyle/captcha/issues"
+    },
+    "keywords": ["widget"],
+    "spm": {
+        "alias": {
+            "base": "alimobstyle/one/1.0.1/one.css"
+        },
+        "output": [
+            "captcha.css"
+        ]
+    }
 }
