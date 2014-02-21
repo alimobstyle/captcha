@@ -16,7 +16,10 @@
         <div class="ali-field-input">
             <input type="text" maxlength="4" placeholder="短信验证码">
         </div>
-        <div class="ali-field-message">错误提示</div>
+        <div class="ali-field-message">
+            <div class="ali-field-message-arrow"></div>
+            <p>提示信息</p>
+        </div>
     </div>
     <div class="ali-captcha-button">
         <button type="button" disabled="disabled" class="ali-button ali-button-disabled">重获验证码</button>
@@ -27,7 +30,11 @@
         <div class="ali-field-input">
             <input type="text" maxlength="4" placeholder="短信验证码">
         </div>
-        <div class="ali-field-message">错误提示</div>
+        <div class="ali-field-message">
+            <div class="ali-field-message-arrow"></div>
+            <div class="ali-field-message-icon"></div>
+            <p>提示信息</p>
+        </div>
     </div>
     <div class="ali-captcha-button">
         <button type="button" disabled="disabled" class="ali-button ali-button-disabled">重获验证码</button>
